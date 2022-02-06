@@ -55,7 +55,7 @@ function colorSelect(){
     console.log(window.event.target.style.backgroundColor);
     mouseColor = window.event.target.style.backgroundColor;
     currentColorText.innerHTML = mouseColor;
-    CurentColorBox.backgroundColor = mouseColor;
+    currentColorBox.style.backgroundColor = mouseColor;
 }
 
 
@@ -98,17 +98,6 @@ colorinner.setAttribute('id', 'colortemplate');
 document.getElementById('foot').appendChild(colorinner);
 
 
-// var curentColorBox = document.createElement('CurrentColorBox');
-// curentColorBox.setAttribute('id','CurrentColorBox');
-// curentColorBox.style.height = "1.0%";
-// curentColorBox.style.width = "1.0%";
-// curentColorBox.style.float = "left";
-// curentColorBox.style.paddingBottom = "1.0%";
-// curentColorBox.style.border = "inset black";
-// curentColorBox.style.borderWidth="1px 1px"
-// curentColorBox.style.backgroundColor = 'black'
-// document.getElementById('colortemplate').append(curentColorBox);
-
 
 var currentColorText = document.createElement('colorText');
 currentColorText.innerHTML = 'Current Color' + '\n';
@@ -128,13 +117,7 @@ document.getElementById('colortemplate').append(currentColorBox);
 
 
 
-// var colorText = document.createElement('currentColor');
-// colorTemplate.innerHTML = 'CurrentColor';
-// document.getElementById('foot').appendChild(colorTemplate);
 
-// var colorTemplateText = document.createElement('currentColor');
-// colorTemplateText.innerHTML = 'CurrentColor';
-// document.getElementById('foot').appendChild(colorTemplate);
 
 
 for (var h = 0; h < colorArray.length; h++){
