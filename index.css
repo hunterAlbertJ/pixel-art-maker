@@ -1,14 +1,39 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 90%;
-    width: 100%;
-    background-color: beige;
-    color: black;
-    text-align: right;
- }
- colortext{
-    text-transform: capitalize;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 90%;
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  text-align: right;
+}
+colortext {
+  text-transform: capitalize;
+}
 
+#parentDiv {
+   
+   align-items: center;
+   flex-wrap: wrap;
+   display: flex;
+   padding:0;
+   margin: 0;
+   align-self:center;
+   justify-content: center;
+   
+ }
+ 
+ body {
+   
+   height: auto;
+   width: auto;
+   align-items: center;
+
+   
+ }
+ 
+ div{
+    max-width: 20px;
+    max-height: 20px;
  }
