@@ -23,7 +23,19 @@ colortext {
    justify-content: center;
    
  }
+ div:hover {
+   box-shadow: 3px 3px 3px black;
+ }
+ #save:hover {
+   box-shadow: 3px 3px 3px black;
+ }
  
+ #reset:hover {
+   box-shadow: 3px 3px 3px black;
+ }
+ #load:hover {
+   box-shadow: 3px 3px 3px black;
+ }
  body {
    
    height: auto;
